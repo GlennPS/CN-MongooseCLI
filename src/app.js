@@ -8,10 +8,18 @@ const app = async (yargsObj) => {
     try {
         if (yargsObj.add) {
             console.log(await addMovie(yargsObj.title, yargsObj.actor));
-            //add functionality
+    // ADD property functionality> node src/app.js --add --title "..", --actor ".."
         } else if (yargsObj.list) {
             console.log(await list());
-            //list functionality
+    // LIST recall functionality> node src/app.js --list
+
+    //     } else if (yargsObj. ) { //insert Obj. updatefunc
+
+    // // UPDATE functionality>
+        } else if (yargsObj. ) { //insert Obj. deletefunc
+
+            
+    // DELETE functionality> 
         } else {
             console.log("Incorrect command");
         }

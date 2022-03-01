@@ -12,9 +12,11 @@ const movieSchema = new mongoose.Schema({
     actor: {
         type: String,
         default: "Not specified",
+//if nothing is inputted default value is the output
     },
 });
 
 const Movie = mongoose.model("Movie", movieSchema);
 
 module.exports = Movie;
+
